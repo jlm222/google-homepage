@@ -1,0 +1,173 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    overflow: hidden;
+}
+
+
+#page-container {
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+  #content-wrap {
+
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+body {
+    font-size: 0.84rem;
+    color: black;
+    background: #fff;
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+nav {
+    position: relative;
+    top: 0;
+    font-size: 13px;
+    opacity: 0.75;
+    padding-top: 16px;
+}
+
+.left-nav {
+    position: absolute;
+    margin: 7px 0 0 10px;
+    width: 100px;
+}
+
+.left-nav a {
+    display: inline-block;
+    padding-left: 15px;
+
+}
+
+.right-nav {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    width: 100px;
+}
+
+
+main {
+    margin: 185px auto;
+    text-align: center;
+    height: 400px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#search-box {
+    height: 44px;
+    width: 577px;
+    margin-top: 22px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    background-color: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+#search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+
+}
+
+#button-box {
+    margin-top: 30px;
+}
+
+.buttons {
+    height: 36px;
+    width: 129px;
+    margin: 0px 4px;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+}
+
+.buttons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+
+#search-button {
+
+}
+
+#lucky-button {
+    width: 140px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    opacity: 0.75;
+    display: block;
+    margin-bottom: 12px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+#location {
+    opacity: 0.7;
+    margin-left: 30px;
+    margin-bottom: 22px;
+    font-size: 15px;
+    border: 2px solid #e4e4e4;
+    padding: 6px 0 6px 0px;
+}
+
+.footer-words {
+    margin: 0 12px;
+    opacity: 0.8;
+}
+
+#left-footer {
+    margin-left: 18px;
+}
+
+#right-footer {
+    position: absolute;
+    right: 0;
+    margin-right: 
+    display: ;
+}
